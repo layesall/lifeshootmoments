@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Config from "../../config/Config";
 import About from "../About/About";
+import Services from "../Services/Services";
 
 export default function Welcome() {
   return (
@@ -19,6 +20,7 @@ export default function Welcome() {
         </div>
       </div>
       <About />
+      <Services />
       <Footer />
     </>
   );

@@ -1,0 +1,62 @@
+/*
+---| services-component
+------------------------------
+*/
+
+.services-component {
+
+  width: 100%;
+  height: auto;
+  min-height: 760px;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  background: url('../../assets/bg/bg-one.jpg') no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.services-title {
+  color: var(--secondary);
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.services-item {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 1rem;
+  color: var(--light);
+  background: #eeeeee38;
+  border-radius: 10px;
+}
+
+.services-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--light);
+  background: var(--secondary);
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.services-item-title:hover {
+  background: var(--secondary);
+  transition: all .2s ease-in-out;
+}
+
+.services-item-icon {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.services-item-intro {
+  text-align: justify;
+}

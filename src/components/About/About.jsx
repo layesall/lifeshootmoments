@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
+import AboutImage from '../../assets/bg/bg-one.jpg'
+
 import "./About.css";
 
 export default function About() {
@@ -33,7 +35,7 @@ export default function About() {
           </Col>
           <Col md={4}>
             <Image
-              src="https://via.placeholder.com/1000"
+              src={AboutImage}
               alt="about image"
               className="about-image"
             />
