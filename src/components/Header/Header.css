@@ -3,6 +3,8 @@
 ------------------------------
 */
 .header-component {
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +16,13 @@
   padding: 10px;
 }
 
+.header-component.onScroll{
+  position: sticky;
+  top: 0;
+  background: var(--secondary);
+  transition: all .2s ease-in-out;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -22,6 +31,8 @@
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
   color: var(--light) !important;
   text-decoration: none;
   text-transform: uppercase;
@@ -40,10 +51,12 @@
   color: var(--light) !important;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   font-size: 21px;
   font-weight: bolder !important;
   letter-spacing: 3px;
   margin: 5px;
+  width: 200px;
 }
 
 .nav-link-icon {
@@ -56,6 +69,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 70px;
   object-fit: cover;
+  margin-right: 5px;
 }

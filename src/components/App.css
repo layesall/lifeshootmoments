@@ -6,8 +6,8 @@
   width: 100%;
   height: auto;
   min-height: 100vh;
-  color: var(--light);
-  background: var(--primary);
+  color: var(--dark);
+  background: var(--light);
 }
 
 .app-component.home {
