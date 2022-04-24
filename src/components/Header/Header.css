@@ -13,7 +13,7 @@
   min-height: 5vmin;
   margin-bottom: 3rem;
   z-index: 100;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .header-component.onScroll{
@@ -36,9 +36,15 @@
   color: var(--light) !important;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 900;
   letter-spacing: 5px;
+}
+
+.logo {
+  width: 70px;
+  object-fit: cover;
+  margin-right: 5px;
 }
 
 .nav-link-group {
@@ -52,11 +58,10 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: bolder !important;
   letter-spacing: 3px;
   margin: 5px;
-  width: 200px;
 }
 
 .nav-link-icon {
@@ -65,11 +70,29 @@
 }
 
 .nav-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--light);
 }
 
-.logo {
-  width: 70px;
-  object-fit: cover;
-  margin-right: 5px;
+@media only screen and (max-width: 600px) {
+
+  .header-component {
+    position: sticky;
+    top: 0;
+    background: var(--secondary);
+    transition: all .2s ease-in-out;
+  }
+
+  .nav-brand {
+    font-size: 1rem;
+    letter-spacing: 0;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+
 }

@@ -34,6 +34,13 @@
   border-radius: 10px;
 }
 
+.services-item-image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
 .services-item-title {
   display: flex;
   justify-content: space-between;
@@ -59,4 +66,19 @@
 
 .services-item-intro {
   text-align: justify;
+}
+
+.services-item-price {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: column;
+  width: 100%;
+  border-top: 1px solid var(--secondary);
+  padding: 10px 0;
+}
+
+.the--price {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 10px;
 }

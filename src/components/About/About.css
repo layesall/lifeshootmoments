@@ -32,4 +32,12 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+  box-shadow: -15px 15px  var(--secondary);
+}
+
+.about-signature {
+  color: var(--secondary);
+  text-align: end;
+  letter-spacing: 5px;
+  margin: 3rem 0;
 }

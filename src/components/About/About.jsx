@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 
-import AboutImage from '../../assets/bg/bg-one.jpg'
+import AboutImage from '../../assets/about/aboutme.jpg';
 
 import "./About.css";
 
@@ -10,8 +10,15 @@ export default function About() {
     <div id="about" className="about-component">
       <Container>
         <Row>
+          <Col md={4}>
+            <Image
+              src={AboutImage}
+              alt="about image"
+              className="about-image"
+            />
+          </Col>
           <Col md={8}>
-            <h1 className="about-title">About</h1>
+            <h1 className="about-title">Who is behind the lens</h1>
             <p className="about-text">
               Gingerbread chocolate bar candy gummi bears pastry jelly powder.
               Bear claw ice cream powder chupa chups halvah muffin jelly-o
@@ -32,14 +39,9 @@ export default function About() {
               claw jelly beans sesame snaps shortbread muffin. Pie jelly beans
               chocolate bear claw pudding sesame snaps marshmallow.
             </p>
+            <h3 className="about-signature"> Lifeshoot Moments </h3>
           </Col>
-          <Col md={4}>
-            <Image
-              src={AboutImage}
-              alt="about image"
-              className="about-image"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </div>
