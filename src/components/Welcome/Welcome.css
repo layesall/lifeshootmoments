@@ -4,7 +4,6 @@
   align-items: center;
   flex-flow: column;
   color: var(--light);
-  border-radius: 5px;
   width: 100%;
   min-height: 100vh;
   background: #333 url('../../assets/bg/bg-one.jpg') no-repeat center/cover;
@@ -17,7 +16,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-flow: column;
-  /* background: #eeeeee36; */
   padding: 10px;
 }
 
@@ -33,6 +31,56 @@
   font-weight: lighter;
 }
 
-.welcome-component p{
+.welcome-component p {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .welcome-box {
+    align-items: center;
+    padding: 3px;
+  }
+
+  .welcome-component h1{
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 3px;
+  }
+
+  .welcome-component h2{
+    text-align: start;
+    font-size: 2rem;
+  }
+
+  .welcome-component p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  .welcome-box {
+    align-items: center;
+    padding: 3px;
+  }
+
+  .welcome-component h1{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  .welcome-component h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .welcome-component p {
+    text-align: center;
+    font-size: 18px;
+  }
+
 }

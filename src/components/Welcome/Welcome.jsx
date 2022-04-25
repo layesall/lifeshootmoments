@@ -17,8 +17,7 @@ export default function Welcome() {
         <div className="welcome-box">
           <h2>Welcome in</h2>
           <h1> {Config.AppName} </h1>
-          <h2>Let me light up your world with my natural flashlight.</h2>
-          <h2>I want people see the world through my lens.</h2>
+          <p>Let me light up your world with my natural flashlight.</p>
         </div>
       </div>
       <About />

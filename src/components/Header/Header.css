@@ -83,6 +83,7 @@
     top: 0;
     background: var(--secondary);
     transition: all .2s ease-in-out;
+    margin-bottom: 0;
   }
 
   .nav-brand {
