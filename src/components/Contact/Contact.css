@@ -3,20 +3,26 @@
 ------------------------------
 */
 .contact-component {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
   min-height: 760px;
   padding: 2rem 0;
+  margin: 2rem 0;
 }
 
-.contact-info {
+.contact-card {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   color: var(--light);
-  background: var(--secondary);
-  padding: 2rem 0;
-  box-shadow: -15px 15px var(--primary);
+  background: var(--primary);
+  padding: 1rem;
+  box-shadow: -15px 15px var(--secondary);
+  width: 50%;
 }
 
 .contact-title {
@@ -37,9 +43,14 @@
   margin: 2rem 0;
 }
 
+#contact-form{
+  width: 100%;
+}
+
 .form-control, 
 .form-select 
 {
+  color: var(--light);
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--light);
@@ -48,22 +59,109 @@
 .form-control::placeholder,
 .form-select::placeholder
 {
-  color: var(--primary);
+  color: #767676;
 }
 
-.form-control:focus,
-.form-select:focus
+.form-control:focus
 {
-  border: 1px solid var(--secondary);
+  color: var(--light);
+  background: transparent;
+  border-bottom: 1px solid var(--secondary);
   outline: 0 none;
+}
+
+.form-select:focus {
+  background: var(--secondary);
+}
+
+.form-select option:hover {
+  color: var(--primary);
+  background: var(--light);
 }
 
 .button-send {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--secondary);
   text-transform: uppercase;
   letter-spacing: 3px;
   width: 200px;
   padding: 1rem 0;
+  float: right;
+}
+
+.button-send:hover,
+.button-send:focus
+{
+  background: var(--secondary);
+  opacity: .8;
+}
+
+.form-alert-message {  
+  font-weight: 600;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.form-alert-message.error {
+  color: #af0202;
+  background: #ffb0b0;
+}
+
+.form-alert-message.success {
+  color: green;
+  background: #aff1af;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .contact-component {
+    padding: .3rem;
+  }
+
+  .contact-card {
+    width: 100%;
+    box-shadow: none;
+    border: 5px solid var(--secondary);
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: .3rem;
+  }
+  
+  .contact-intro {
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .contact-component {
+    padding: .3rem;
+  }
+  
+  .contact-card {
+    width: 100%;
+    box-shadow: none;
+    border: 5px solid var(--secondary);
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+  
+  .contact-intro {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  .button-send {
+    width: 100px;
+    padding: .3rem 0;
+  }
+
 }
