@@ -18,16 +18,16 @@ export default function Footer() {
         <Row className="footer-top">
           <Col md={12}>
             <div className="footer-media">
-              <Link to="" className="media-link">
+              <Link to="#" className="media-link">
                 <FaInstagramSquare />
               </Link>
-              <Link to="" className="media-link">
+              <Link to="#" className="media-link">
                 <FaFacebookSquare />
               </Link>
-              <Link to="" className="media-link">
+              <Link to="#" className="media-link">
                 <FaGooglePlusSquare />
               </Link>
-              <Link to="" className="media-link">
+              <Link to="#" className="media-link">
                 <FaYoutube />
               </Link>
             </div>

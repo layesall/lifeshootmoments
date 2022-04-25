@@ -29,9 +29,10 @@
   align-items: flex-start;
   flex-flow: column;
   padding: 1rem;
-  color: var(--light);
-  background: #eeeeee38;
+  color: var(--dark);
+  background: #fff;
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
 
 .services-item-image {
@@ -49,7 +50,7 @@
   color: var(--light);
   background: var(--secondary);
   width: 100%;
-  padding: .5rem;
+  padding: .3rem;
   margin-bottom: 1rem;
   border-radius: 5px;
 }
@@ -60,7 +61,7 @@
 }
 
 .services-item-icon {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-right: 10px;
 }
 

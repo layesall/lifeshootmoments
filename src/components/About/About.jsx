@@ -18,7 +18,7 @@ export default function About() {
             />
           </Col>
           <Col md={8}>
-            <h1 className="about-title">Who is behind the lens</h1>
+            <h1 className="about-title">Who is behind the lens ?</h1>
             <p className="about-text">
               I entered the photography world in 2016. But before that, I was a model for 2 years. I was used to be in front of the camera, but I wanted to know what it felt like to be behind the camera. That's when my passion for photography began.
             </p>
@@ -28,7 +28,6 @@ export default function About() {
             <p className="about-text">
               My sincere satisfaction comes from seeing my client's individual style emerge, while I am helping them bring their own vision into life. I hope you will allow me to point the picture you have dreamt in your heart.
             </p>
-            <h3 className="about-signature"> Lifeshoot Moments </h3>
           </Col>
           
         </Row>
