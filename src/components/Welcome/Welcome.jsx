@@ -7,6 +7,7 @@ import Config from "../../config/Config";
 import About from "../About/About";
 import Services from "../Services/Services";
 import Gallery from "../Gallery/Gallery";
+import Contact from "../Contact/Contact";
 
 export default function Welcome() {
   return (
@@ -23,6 +24,7 @@ export default function Welcome() {
       <About />
       <Services />
       <Gallery />
+      <Contact />
       <Footer />
     </>
   );
