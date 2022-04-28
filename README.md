@@ -1,22 +1,8 @@
-# NIKOU - Reactapp Starter Kit
-A simple starter kit with necessary dependencies for a React project
+# L I F E S H O O T  M O M E N T S
 
-## Usage
+Lifehoot moments website redesign project
 
-git clone https://github.com/layesall/reactapp-starter-kit.git
+## Current website
 
-npm install
-
-npm start
-
-## 6 Dependencies includes 
-axios - https://axios-http.com/docs/intro
-
-fslightbox - https://fslightbox.com/react
-
-react-bootstrap / bootstrap - https://react-bootstrap.github.io/
-
-react-icons - https://react-icons.github.io/react-icons/
-
-react-router-dom - https://v5.reactrouter.com/web/guides/quick-start
+https://www.lifeshootmoments.com/
 
